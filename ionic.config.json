@@ -1,0 +1,17 @@
+{
+  "defaultProject": "sky",
+  "projects": {
+    "sky": {
+      "name": "sky",
+      "integrations": {},
+      "type": "angular",
+      "root": "apps/sky"
+    },
+    "robo": {
+      "name": "robo",
+      "integrations": {},
+      "type": "angular",
+      "root": "apps/robo"
+    }
+  }
+}
