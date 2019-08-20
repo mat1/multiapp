@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'lib-vt-shared',
   template: `
     <p>
-      vt-shared still works!
+      vt-shared works!
     </p>
   `,
   styles: []
