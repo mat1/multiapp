@@ -1,15 +1,18 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'lib-vt-shared',
   template: `
     <p>
-      vt-shared works!
+      vt-shared still blub works!
+      {{ test }}
     </p>
   `,
   styles: []
 })
 export class VtSharedComponent implements OnInit {
+
+  @Input() test: string;
 
   constructor() { }
 
